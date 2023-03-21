@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Regole header */
+
+header{
+
+    background-image:url(../img/jumbo.png)
+}
+.centered{
+    padding: 0 10%;
+
+}
+
+.testata{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 60%;
+    align-items: baseline;
+}
+
+.selection{
+    color: #fff;
+}
+
+.accedi{
+    height: 40px;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    width: 75px;
+    text-align: center;
+}
+
+#main-logo{
+    width: 110px;
+}
