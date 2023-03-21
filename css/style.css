@@ -19,15 +19,16 @@ a{
 
 header{
 
-    background-image:url(../img/jumbo.png)
+    background-image:url(../img/jumbo.png);
+    background-size: 100%;
 }
 .centered{
-    padding: 0 10%;
+    padding: 0 12%;
 
 }
 
 .testata{
-    padding-top: 20px;
+    padding-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items:stretch;
@@ -46,14 +47,68 @@ header{
 }
 
 .accedi{
-    height: 40px;
     background-color: #fff;
     color: black;
-    border-radius: 15px;
+    border-radius: 20px;
     width: 75px;
     text-align: center;
 }
 
 #main-logo{
     width: 110px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.subt{
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 120px;
+}
+
+.download{
+    color: #000001;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.browser{
+    color: #fff;
+    background-color: #23272A;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Regole Main */
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgtxt{
+    width: 60%;
+}
+
+.txtimg{
+    line-height: 30px;
+}
+
+h3{
+    font-size: 40px;
+    padding-bottom: 20px;
 }
